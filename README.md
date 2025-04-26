@@ -9,6 +9,10 @@ Includes:
 - A custom JavaScript quiz about Buggy’s life
 - Cards, hover effects, fade-in animations, and mobile tweaks!
 
+## 🌍 Live Website
+
+[👉 View the deployed site here!](https://skyejen.github.io/bugs_buggys_world/)
+
 ## 📂 Structure
 - `index.html` – Homepage (cards leading to other pages)
 - `about.html`, `life_love.html`, `sister.html` – Extra pages
@@ -21,6 +25,7 @@ Includes:
 - CSS3
 - Bootstrap 5
 - Vanilla JavaScript
+- Git & GitHub Pages for hosting
 
 ## 📸 Screenshots
 ### Homepage
