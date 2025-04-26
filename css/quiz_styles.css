@@ -1,0 +1,36 @@
+#beige_section {
+    background-color: #e4c49c;
+    text-align: center;
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.question button {
+    margin: 3px;
+}
+
+.q1_answer, .q2_answer, .q3_answer {
+    /* background-color: #3a7d44; */
+    border-color: #3a7d44;
+}
+
+#mischieves_button:hover, #life_love_button:hover, #sister_button:hover {
+    background-color: #2f5f34;
+    border-color: #2f5f34;
+}
+
+#restart {
+    border-color: #2f5f34;
+}
+
+#restart:hover {
+    background-color: #5c4033;
+}
+
+footer {
+    padding: 2rem;
+}

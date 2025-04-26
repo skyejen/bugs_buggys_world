@@ -1,0 +1,156 @@
+/* MAIN ELEMENTS - START */
+
+body {
+    background-color: #5c4033;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+    font-family: 'Quicksand';
+}
+
+#header {
+    background-color: #5c4033;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-family: 'Pacifico'; font-size: 22px;
+}
+
+#greeting {
+    background-color: #f0eee9;
+    text-align: center;
+    padding: 1rem 0.75rem;
+}
+
+#greeting p {
+    margin-bottom: 0.25rem;
+}
+
+h2, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#bottom_button p {
+    margin-bottom: 0.25rem;
+}
+
+#bottom_button {
+    text-align: center;
+}
+
+#bottom_button a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #212529;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#bottom_button a:hover {
+    color: #3a7d44;
+}
+
+footer {
+    background-color: #5c4033;
+    color: #dddddd;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-family: 'Quicksand'; font-size: 14px;
+}
+
+/* MAIN ELEMENTS - END */
+
+/* CARDS - START */
+
+#first_card, #second_card, #third_card, #fourth_card {
+    background-color: #3e2c23;
+    border-color: #3d2e2d;
+    color: #fff;
+    /* display: inline-block; */
+    max-width: 22rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.card-img-top {
+    aspect-ratio: 4/3.33;
+}
+
+#first_card:hover, #second_card:hover, #third_card:hover, #fourth_card:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    transition: box-shadow 0.3s ease;
+}
+
+#cards_div {
+    background-color: #e4c49c;
+    margin-bottom: 2rem;
+    padding: 1.5rem 0.75rem;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* CARDS - END */
+
+/* CARD ANIMATION - START */
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+#first_card, #second_card, #third_card, #fourth_card {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* These lines help the images in the cards load, otherwise they'd show up empty at first */
+body.loaded #first_card, body.loaded #second_card, body.loaded #third_card, body.loaded #fourth_card {
+    animation: fadeIn 0.6s ease forwards;
+}
+
+/* CARD ANIMATION - END */
+
+/* CARD BUTTONS - START */
+
+#mischieves_button, #life_love_button, #sister_button {
+    background-color: #3a7d44;
+    border-color: #3a7d44;
+}
+
+#mischieves_button:hover, #life_love_button:hover, #sister_button:hover {
+    background-color: #2f5f34;
+    border-color: #2f5f34;
+}
+
+/* CARD BUTTONS - END */
+
+/* MOBILE RESOLUTION - START */
+
+@media (max-width: 768px) {
+    #cards_div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #first_card, #second_card, #third_card, #fourth_card {
+        width: 90%;
+        margin-bottom: 20px;
+        max-width: none;
+        display: block;
+    }
+
+    img {
+        height: auto;
+    }
+
+    #first_card, #second_card, #third_card, #fourth_card {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+}

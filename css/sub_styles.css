@@ -1,0 +1,15 @@
+#beige_section {
+    background-color: #e4c49c;
+    text-align: center;
+    padding-top: 0.25rem;
+    padding-bottom: 1rem;
+}
+
+#cards_div {
+    margin-bottom: 0rem;
+    padding-bottom: 0.75rem;
+}
+
+footer {
+    padding: 2rem;
+}
