@@ -11,7 +11,7 @@ Includes:
 
 ## 🌍 Live Website
 
-[👉 View the deployed site here!](https://skyejen.github.io/bugs_buggys_world/)
+- [👉 View the deployed site here!](https://skyejen.github.io/bugs_buggys_world/)
 
 ## 📂 Structure
 - `index.html` – Homepage (cards leading to other pages)
