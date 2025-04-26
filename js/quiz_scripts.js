@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (button.id === "correct_q1") {
                     // Correct answer
                     button.style.backgroundColor = "green";
-                    document.querySelector('#p1').innerHTML = 'Correct! Amazing job!';
+                    document.querySelector('#p1').innerHTML = 'The one and only!';
 
                 } else {
                     // Incorrect answers
